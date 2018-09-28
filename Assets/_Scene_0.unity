@@ -180,7 +180,7 @@ Halo:
   m_Color:
     serializedVersion: 2
     rgba: 4286019447
-  m_Size: 5
+  m_Size: 3
 --- !u!1 &488757484
 GameObject:
   m_ObjectHideFlags: 0
@@ -400,6 +400,7 @@ GameObject:
   - component: {fileID: 728326391}
   - component: {fileID: 728326390}
   - component: {fileID: 728326392}
+  - component: {fileID: 728326393}
   m_Layer: 0
   m_Name: Slingshot
   m_TagString: Untagged
@@ -447,6 +448,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b90a9aef1782b4dafa7ff102497b6647, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &728326393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 728326389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6adf69d32aee6fe4abfec0e8367f580d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabProjectile: {fileID: 1304888747670688, guid: fd38d5f4af2e3204ab374bcaf7ff62bf,
+    type: 2}
+  velocityMult: 8
+  launchPoint: {fileID: 0}
+  launchPos: {x: 0, y: 0, z: 0}
+  projectile: {fileID: 0}
+  aimingMode: 0
 --- !u!1 &737611854
 GameObject:
   m_ObjectHideFlags: 0
