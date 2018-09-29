@@ -91,7 +91,8 @@ public class MissionDemolition : MonoBehaviour {
             {
                 eView = uitButton.text;
             }
-            showing = eView;            switch (showing)
+            showing = eView;
+            switch (showing)
             {
                 case "Show Slingshot":
                     FollowCam.POI = null;

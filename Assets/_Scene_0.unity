@@ -1923,7 +1923,7 @@ Prefab:
         type: 2}
       propertyPath: castles.Array.data[0]
       value: 
-      objectReference: {fileID: 691754922}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d11a6147859236f48b2facc6bac82fa7, type: 2}
   m_IsPrefabAsset: 0
