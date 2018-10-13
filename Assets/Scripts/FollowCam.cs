@@ -18,7 +18,7 @@ public class FollowCam : MonoBehaviour
     }
     void FixedUpdate()
     {
-        Vector3 destination;
+          Vector3 destination;
       
         if (POI == null)
         {
