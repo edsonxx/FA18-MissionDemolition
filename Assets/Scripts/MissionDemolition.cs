@@ -92,6 +92,7 @@ public class MissionDemolition : MonoBehaviour {
                 eView = uitButton.text;
             }
             showing = eView;
+        Debug.Log("Showing is " + showing);
             switch (showing)
             {
                 case "Show Slingshot":
